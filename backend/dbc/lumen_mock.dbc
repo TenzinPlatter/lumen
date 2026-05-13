@@ -1,0 +1,18 @@
+VERSION ""
+
+
+NS_ :
+
+BS_:
+
+BU_: EMS ABS
+
+
+BO_ 128 EMS_DCT1: 8 EMS
+ SG_ N : 16|16@1+ (0.25,0) [0|16383.8] "rpm" CLU
+
+BO_ 1200 WHL_SPD: 8 ABS
+ SG_ WHL_SPD_FL : 0|14@1+ (0.03125,0) [0|511.969] "km/h" CLU
+ SG_ WHL_SPD_FR : 16|14@1+ (0.03125,0) [0|511.969] "km/h" CLU
+ SG_ WHL_SPD_RL : 32|14@1+ (0.03125,0) [0|511.969] "km/h" CLU
+ SG_ WHL_SPD_RR : 48|14@1+ (0.03125,0) [0|511.969] "km/h" CLU
